@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.container
+{
+background-color: #D6E8EE;
+background-position: center center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: scroll;
+width: 100%;
+height: 100vh;
+position: absolute;
+}
+.my-form-feild
+{
+    background-color:#494268;
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+     top: 50%; 
+     left: 50%; 
+     transform: translate(-50%,-50%);
+    box-shadow: 0px 0px 15px 5px rgba(124, 115, 115, 0.7);
+
+}
+.user-icon
+{
+    color: white;
+    height: 70px;
+    width: 70px;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 40px;
+    top: 0%;
+    left: 50%;
+    outline: 2px solid white;
+    overflow: hidden;
+    position: absolute;
+    box-shadow: 0px 0px 15px 5px rgba(167,155,155,0.7);
+    transform: translate(-50%,-20%);
+}
+.input-group
+{
+/* z-index: -1; */
+position: absolute;
+top:50%;
+left:50%;
+height:350px ;
+width:350px ;
+box-sizing: border-box;
+ transform: translate(-50%,-50%);
+ outline: none;
+}
+.username-password-my-button{
+    margin-top: 25%;
+}
+.name,.e-mail,.password
+{
+    width: 300px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+    position: relative;
+}
+.name i,.e-mail i,.password i{
+    position: absolute;
+    left: 0%;
+    transform: translateY(-25%);
+    background-color: rgb(236, 228, 228);
+    padding:11px 11px ;
+    border-radius:5px 0px 0px 5px ;
+
+}
+.name input,.e-mail input,.password input{
+    border: none;
+    padding-left: 22px;
+    outline: none;
+}
+.my-btn button{
+    border: none;
+    width: 300px;
+    margin-left: 25px;
+    height: 37px;
+    border-radius: 5px;
+    background-color:#7096D1;
+    font-size: 20px;
+    color: white;
+    font-weight: bolder;
+    cursor:  pointer;
+}
+.sign-up
+{
+    color: white;
+    margin-top: 40px;
+    margin-left: 25px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 10px;
+}
+.login-btn{
+   
+    
+    border-radius: 5px;
+    background-color:#7096d1;
+    font-size: 15px;
+    color: white;
+   cursor: pointer;
+    padding: 4px;
+    border: none;
+}
